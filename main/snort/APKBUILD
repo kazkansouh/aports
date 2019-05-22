@@ -4,13 +4,14 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
 pkgname=snort
 pkgver=2.9.13
-pkgrel=3
+pkgrel=4
 pkgdesc="An open source network intrusion prevention and detection system"
 url="https://www.snort.org/"
 arch="all"
 license="GPL-2.0-only"
 makedepends="pcre-dev libpcap-dev libnet-dev libdnet-dev daq-dev daq-static
-	bison flex zlib-dev libtirpc-dev xz-dev"
+	bison flex zlib-dev libtirpc-dev xz-dev
+	libnfnetlink-dev libnetfilter_queue-dev"
 install="$pkgname.pre-install"
 subpackages="$pkgname-doc $pkgname-dev $pkgname-openrc"
 source="https://www.snort.org/downloads/snort/snort-$pkgver.tar.gz
