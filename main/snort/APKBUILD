@@ -4,7 +4,7 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
 pkgname=snort
 pkgver=2.9.13
-pkgrel=2
+pkgrel=3
 pkgdesc="An open source network intrusion prevention and detection system"
 url="https://www.snort.org/"
 arch="all"
@@ -76,4 +76,4 @@ package() {
 
 sha512sums="3bc90d3753b01f779e587d8f6a514a18ea446732b0a41809df028b60eacc93fca2c158030c0743a9662958220a98757629eb1d11e7d4d709bf3b76b807b935bd  snort-2.9.13.tar.gz
 c71d11f4cde4aba432641d3915faec8070e9fea5b33c71f6b2872b2208871180b3c7dbbadd2ddaebe5f3280adf7c5c9daf1585afd331fe552486a675ff676e52  snort.initd
-abc0846ea6e08029c772f24e213f211a39219701e6e2c8b3aa112632318479db7b21014c5f2c4987cb2981cafce0ea744549c3ce754e9145cba9ec5604ae66f3  snort.confd"
+6963381b53099e749bbd32b6a268fc086ffe0014fb7578f1c0e89237e54733461605c05320ce86c28811abae11e4aed744226b4d508cfddfe91bfafe2c41e3db  snort.confd"
